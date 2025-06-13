@@ -11,7 +11,7 @@ import SwiftUI
 struct WassupWWDC2025App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FoundationModels()
         }
     }
 }

@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+/*
+ MARK: 1. Liquid Glass Effect
+ The new Liquid Glass Effect is used for almost all the system-wide apps, controls, and so on.
+ Adopting it for our app is not a big task.
+ Fortunately, SwiftUI supports the Liquid Glass Effect for both native controls and allows us to add these effects to custom views as well.
+ */
 struct LiquidGlassEffectView: View {
     var body: some View {
         ZStack {
