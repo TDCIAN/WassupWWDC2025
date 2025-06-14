@@ -15,7 +15,33 @@ import SwiftUI
  */
 struct ToolBarSpacer: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                
+            }
+            .navigationTitle("Todo's")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    HStack {
+                        Button("", systemImage: "suit.heart.fill") {
+                            
+                        }
+                        
+                        Button("", systemImage: "magnifyingglass") {
+                            
+                        }
+                    }
+                }
+                
+                ToolbarSpacer(.fixed, placement: .topBarTrailing)
+                
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("", systemImage: "person.fill") {
+                        
+                    }
+                }
+            }
+        }
     }
 }
 
